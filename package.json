@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client":"npm start --prefix frontend"
   },
   "author": "Aguibou Barry",
   "license": "MIT",
@@ -14,6 +15,8 @@
     "colors": "^1.4.0",
     "dotenv": "^16.4.2",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.1"
   },
   "devDependencies": {
